@@ -8,9 +8,11 @@ using namespace std;
 class Imovel {
 private:
     // Atributos de valores adicionais no valor do metro²
-    double valorQuarto;
-    double valorBanheiro;
-    double valorVaga;
+    double valorQuarto = 2500;
+    double valorBanheiro = 8000;
+    double valorVaga = 1255;
+    double precoImovel;
+    string endereco;
 
 public:
     //Atributos públicos
@@ -18,15 +20,23 @@ public:
     int qntQuartos;
     int qntBanheiros;
     int qntVagas;
-    double valor; //valor do m²
-    string endereco;
+    double valorMetro; //valor do m²
 
     //Construtor
-    Imovel(int _areaConstruida, int _qntQuartos, int _qntBanheiros, int _qntVagas, double _valor, string _endereco);
+    Imovel(string _endereco, int _areaConstruida, int _qntQuartos, int _qntBanheiros, int _qntVagas, double _valorMetro);
 
     //Metodos
+    //(Set-Get (valor do Metro²))
+    void setValorMetro(double _valorMetro);
+    double getValorMetro();
+
+    //(Set-Get (Endereço))
+    void setEndereco(string _endereco);
+    string getEndereco();
+
+    // Valor do Imovel
     double valorImovel(); //Polimorfismo
 };
 
-#endif 
+#endif
 

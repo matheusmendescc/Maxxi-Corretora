@@ -9,10 +9,12 @@ class Casa : public Imovel {
 private:
     //Atributos
     int tamTerreno;
+    double precoTerreno = 580; // em m²
+    double precoCasa;
 
 public:
     //Construtor
-    Casa(int _areaConstruida, int _qntQuartos, int _qntBanheiros, int _qntVagas, double _valor, string _endereco, int _tamTerreno);
+    Casa(string _endereco, int _areaConstruida, int _qntQuartos, int _qntBanheiros, int _qntVagas, double _valorMetro, int _tamTerreno);
 
     //Metodos
     void verificaTerreno(int _areaConstruida, int _tamTerreno);
@@ -20,4 +22,3 @@ public:
 };
 
 #endif
-
