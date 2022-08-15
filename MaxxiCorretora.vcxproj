@@ -130,6 +130,7 @@
     <ClCompile Include="Apartamento.cpp" />
     <ClCompile Include="Casa.cpp" />
     <ClCompile Include="Comprador.cpp" />
+    <ClCompile Include="Escritura.cpp" />
     <ClCompile Include="Financiamento.cpp" />
     <ClCompile Include="Imovel.cpp" />
     <ClCompile Include="MaxxiCorretora.cpp" />
@@ -138,6 +139,7 @@
     <ClInclude Include="Apartamento.h" />
     <ClInclude Include="Casa.h" />
     <ClInclude Include="Comprador.h" />
+    <ClInclude Include="Escritura.h" />
     <ClInclude Include="Financiamento.h" />
     <ClInclude Include="Imovel.h" />
     <ClInclude Include="resource.h" />

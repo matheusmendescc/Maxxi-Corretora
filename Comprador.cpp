@@ -26,7 +26,7 @@ string Comprador::getRG() {
 }
 
 void Comprador::setCPF(string cpf) {
-	this->cpf = cpf;2
+	this->cpf = cpf;
 }
 
 string Comprador::getCPF() {
