@@ -31,8 +31,10 @@ string Imovel::getEndereco() {
     return this->endereco;
 }
 
-// Metodo Valor Imovel
-double Imovel::valorImovel() {
-    this->precoImovel = (areaConstruida * valorMetro) + (qntQuartos * valorQuarto) + (qntBanheiros * valorBanheiro) + (qntVagas * valorVaga);
-    return precoImovel;
+void Imovel::valorImovel(double valorDoImovel) {
+    this->precoImovel = valorDoImovel;
+}
+
+double Imovel::getValorImovel() {
+    return this->precoImovel;
 }

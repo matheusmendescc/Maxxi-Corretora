@@ -10,7 +10,6 @@ private:
     //Atributos
     int tamTerreno;
     double precoTerreno = 580; // em m²
-    double precoCasa;
 
 public:
     //Construtor

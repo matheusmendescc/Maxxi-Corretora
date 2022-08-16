@@ -6,7 +6,7 @@
 using namespace std;
 
 class Imovel {
-private:
+protected:
     // Atributos de valores adicionais no valor do metro²
     double valorQuarto = 2500;
     double valorBanheiro = 8000;
@@ -23,6 +23,7 @@ public:
     double valorMetro; //valor do m²
 
     //Construtor
+ 
     Imovel(string _endereco, int _areaConstruida, int _qntQuartos, int _qntBanheiros, int _qntVagas, double _valorMetro);
 
     //Metodos
@@ -35,7 +36,8 @@ public:
     string getEndereco();
 
     // Valor do Imovel
-    double valorImovel(); //Polimorfismo
+    void valorImovel(double valorDoImovel);
+    double getValorImovel();
 };
 
 #endif

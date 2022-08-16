@@ -11,13 +11,10 @@ using namespace std;
 
 class Escritura{
 public:
-	int contadorDeImoveis;
 	//construtor
 	Escritura();
 	//métodos
 	ofstream escritura;
 	void conteudoEscritura(Comprador novoComprador, Imovel novoImovel, Financiamento novoFinanciamento);
-	void criarEscritura();
-
 };
 #endif
