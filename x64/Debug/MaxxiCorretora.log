@@ -1,10 +1,2 @@
-﻿  Apartamento.cpp
-  Casa.cpp
-  Comprador.cpp
-  Escritura.cpp
-  Financiamento.cpp
-  Imovel.cpp
-  MaxxiCorretora.cpp
-C:\Users\himer\source\repos\MaxxiCorretora\MaxxiCorretora\MaxxiCorretora.cpp(7,15): warning C4930: 'Escritura escritura1(void)': função prototipada não chamada (uma definição de variável era pretendida?)
-  Gerando Código...
+﻿  Escritura.cpp
   MaxxiCorretora.vcxproj -> C:\Users\himer\source\repos\MaxxiCorretora\x64\Debug\MaxxiCorretora.exe
