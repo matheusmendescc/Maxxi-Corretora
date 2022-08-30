@@ -1,3 +1,0 @@
-/home/matheusmendescc/Área de Trabalho/Curso Engenharia de Computação/P3/POO/Projeto Maxxi Constutora/cmake-build-debug/CMakeFiles/Projeto_Maxxi_Constutora.dir
-/home/matheusmendescc/Área de Trabalho/Curso Engenharia de Computação/P3/POO/Projeto Maxxi Constutora/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/matheusmendescc/Área de Trabalho/Curso Engenharia de Computação/P3/POO/Projeto Maxxi Constutora/cmake-build-debug/CMakeFiles/rebuild_cache.dir
