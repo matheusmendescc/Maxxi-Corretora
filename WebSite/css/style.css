@@ -16,10 +16,9 @@ li{
     list-style-type:none;
 }
 
-.menu{
+#area-menu{
     background-image: url(../img/background-menu.png);
     height: 125px;
-    text-transform: uppercase;
     text-decoration: none;
     text-align: center;
 }
@@ -29,20 +28,40 @@ li{
     margin-top: 10px;
 }
 
-.menu ul{
+#area-menu ul{
     display: flex;
 }
 
 /*Padding text*/
-.menu ul li{
+#area-menu ul li{
     padding-right: 25px;
 }
 
 /*Text link Color*/
-.menu ul li a{
+#area-menu ul li a{
     color: red;
 }
 
-.menu-link{ /*LINKS DO MENU - A ATUALIZAR*/
-    border: 1px solid orange;
+#menu-inferior{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #9AA8C5;
+}
+
+#menu-inferior ul li{
+    display: inline;
+}
+
+#menu-inferior ul li a{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+#menu-inferior ul li a:hover{
+    background-color: aliceblue;
+    color: #0D2977;
+    transition: 0.5s;
 }
