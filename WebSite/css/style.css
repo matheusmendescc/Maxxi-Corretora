@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    border: 1px solid red;
+    font-family: "Open Sans", sans-serif;
+}
+
+li{
+    list-style-type:none;
+}
+
+.menu{
+    background-image: url(../img/background-menu.png);
+    height: 125px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+/*Padding text*/
+.menu ul li{
+    padding-right: 25px;
+}
+
+/*Text link Color*/
+.menu ul li a{
+    color: red;
+}
+
+.menu-link{ /*LINKS DO MENU - A ATUALIZAR*/
+    border: 1px solid orange;
+}

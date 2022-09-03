@@ -9,30 +9,30 @@
     <h2>Desenvolvedores</h2>
     <table>
         <tr>
-            <td>
+            <td align="center">
                 Lívia Maria Fortunato de Sousa
             </td>
-            <td>
+            <td align="center">
                 <a href="https://github.com/liviafort">
                     <img width=30 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://www.linkedin.com/in/l%C3%ADvia-fortunato-120746225/">
                     <img width=30 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
                 </a>
             </td>
         </tr>
         <tr>
-            <td>
+            <td align="center">
                 Matheus Mendes Castro Cavalcante
             </td>
-            <td>
+            <td align="center">
                 <a href="https://github.com/matheusmendescc">
                     <img width=30 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td>
+            <td align="center">
                 <a href="https://www.linkedin.com/in/matheus-mendes-castro-cavalcante-95b857203/">
                     <img width=30 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
                 </a>
@@ -56,13 +56,13 @@
             </td>
         </tr>
         <tr>
-            <td> <!-- Back-End -->
+            <td align="center"> <!-- Back-End -->
                 <img width=30 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
             </td>
-            <td><!-- Front-End -->
+            <td align="center"><!-- Front-End -->
                 -
             </td>
-            <td><!-- Banco de Dados -->
+            <td align="center"><!-- Banco de Dados -->
                 -
             </td>
         </tr>
