@@ -1,6 +1,8 @@
 <h1 align="center">Maxxi Corretora</h1>
 <img src="https://user-images.githubusercontent.com/84646971/187559108-07139004-b6df-4911-8414-ed42d73da08f.png">
 
+> Status: Em desenvolvimento ⚠
+
 <hr>
 <p>Olá! Sejam muito bem-vindos ao projeto do Software da Corretora Maxxi, esta aplicação é fruto do estudo do Paradigma de Orientação a Objetos (POO), que partiu de um projeto da faculdade que ganhou forma e está sendo usado como base para estudo pelos desenvolvedores.</p>
 <br>
